@@ -19,14 +19,7 @@ int main(void) {
     b = 4;
 	c = a + b;
 
-	printf("Erstes Ergebnis: %d \n", c);
-
-	a = 3,141;
-	b = 2,718;
-
-	c = a + b;
-
-	printf("Zweites Ergebnis: %d", c);
+	printf("%d", c);
 
 	return 0;
 }
