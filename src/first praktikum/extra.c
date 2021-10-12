@@ -14,8 +14,7 @@ int main(void) {
 		summeK += i;
 		summeK2 += i * i;
 		printf("%3i |%4i  |%5i |%5i\n", i, i*i, summeK, summeK2);
-		/*
-		printf("%3i |", i);
+		/* printf("%3i |", i);
 		printf("%4i  |", i*i);
 		printf("%5i |", summeK);
 		printf("%5i \n", summeK2);
